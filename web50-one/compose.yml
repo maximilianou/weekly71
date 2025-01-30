@@ -1,0 +1,16 @@
+services:
+  server3:
+    build:
+      context: .
+      target: development
+    user: appuser
+    ports:
+      - 8080:8080
+    volumes:
+      - ./app:/app      
+#    develop:
+#      watch:
+#        - action: rebuild
+#          path: ./app
+#          target: /app
+
