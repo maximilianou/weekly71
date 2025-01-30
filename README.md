@@ -1,6 +1,15 @@
 
 
 
+
+
+
+------------------------------------------------------
+
+```sh
+cargo leptos new -g leptos-rs/start-axum -n app 
+```
+
 ```sh
 vi app/src/app.rs
 change something
@@ -66,9 +75,18 @@ services:
 #          target: /app
 ```
 
--------------------
+```sh
+docker compose up --remove-orphans
+docker compose down
+```
+------------------------------------------------------
 
--------------------
+
+
+
+
+
+------------------------------------------------------
 
 
 ```sh
